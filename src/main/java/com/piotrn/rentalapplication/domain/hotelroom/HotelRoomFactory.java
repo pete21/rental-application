@@ -16,6 +16,6 @@ public class HotelRoomFactory {
                     return new Space(keyValue.getKey(),sq);
                 })
                 .collect(Collectors.toList());
-        return new HotelRoom(roomNumber,description,spaces);
+        return new HotelRoom(hotelId, roomNumber,description,spaces);
     }
 }
