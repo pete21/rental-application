@@ -1,6 +1,6 @@
 package com.piotrn.rentalapplication.domain.apartment;
 
-class Address {
+public class Address {
     private String street;
     private final String postalCode;
     private final String houseNumber;
@@ -8,7 +8,7 @@ class Address {
     private final String city;
     private final String country;
 
-    Address(String street, String postalCode, String houseNumber, String apartmentNumber, String city, String country) {
+    public Address(String street, String postalCode, String houseNumber, String apartmentNumber, String city, String country) {
         this.street = street;
         this.postalCode = postalCode;
         this.houseNumber = houseNumber;

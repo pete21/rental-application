@@ -8,7 +8,7 @@ public class Apartment {
     private final List<Room> rooms;
     private final String description;
 
-    public Apartment(String ownerId, Address address, List<Room> rooms, String description) {
+    Apartment(String ownerId, Address address, List<Room> rooms, String description) {
         this.ownerId = ownerId;
         this.address = address;
         this.rooms = rooms;
